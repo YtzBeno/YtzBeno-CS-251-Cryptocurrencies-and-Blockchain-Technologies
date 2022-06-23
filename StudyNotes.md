@@ -10,6 +10,9 @@
 - UTXOs define where each blockchain transaction starts and finishes
 - the Byzantine generals problem is a problem that describes how difficult it is for parties to reach a consensus without the help of a central party
 - solution: protocol which adoptes a procedure among the parties to make choices (e.g. PoW, PoS, etc.)
+- PoS is type of consensus mechanism used by blockchains to achieve distributed consensus
+- in PoS ETH staked by validators act as collateral which can be taken if bad behaviour from validator
+- in PoS time is divided into slots (12 seconds) and epochs (32 slots)
 - 
 
 
