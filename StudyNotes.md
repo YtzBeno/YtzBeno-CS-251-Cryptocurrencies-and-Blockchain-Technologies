@@ -7,6 +7,8 @@
 - any little change would result in other root hash so the block would then be invalid
 - Root hash + previous block header hash + nonce ---> cryptographic hash function ---> difficulty target
 - miners are adjusting the nonce until they find the right one
+- UTXOs define where each blockchain transaction starts and finishes
+- The Byzantine generals problem is a game theory problem that describes how difficult it is for dispersed parties to reach a consensus without the help of a trusted central party.
 - 
 
 
