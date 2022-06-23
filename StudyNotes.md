@@ -19,6 +19,13 @@
 - slashing: punishment for stakers (if bad behaviour)
 - sharding: database partitioning where large databases are divided into smaller clusters to reduce data burden and improve scalability
 - randomnes: data produced in an unpredictable way
+- ethereum client: software which contains the EVM program and memory pool, client process 
+- memory pool: location of signed transactions ready to get included in a block gets stored
+- client process: sends transactions from the mempool to the EVM
+- critical functions of EVM is to store the “state” of all accounts and what information those accounts store
+- EVM stores state according to a data structure called a “Merkle Patricia trie”, which is able to contain all the key:value pairs of all addresses on ethereum
+- value/state for each address is itself an encoding of the hash of the address’s respective code, a hash of the data stored by the account, its balance, and the number of transactions it’s carried out // represented as a nonce
+- bytecode is the low-level language that the EVM reads to compute state transitions
 - 
 
 
