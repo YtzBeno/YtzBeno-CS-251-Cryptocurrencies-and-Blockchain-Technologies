@@ -13,7 +13,7 @@ Note that I 'changed' the course a bit here and there, due to my interest being 
 - consenus layer
 - UTXOs
 - mining pool sabotage
-- solidity
+- EVM
 - smart contract security
 - SNARKs
 
