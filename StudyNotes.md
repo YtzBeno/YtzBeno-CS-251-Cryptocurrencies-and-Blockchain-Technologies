@@ -9,6 +9,7 @@
 - miners are adjusting the nonce until they find the right one
 - UTXOs define where each blockchain transaction starts and finishes
 - the Byzantine generals problem is a problem that describes how difficult it is for parties to reach a consensus without the help of a central party
+- solution: protocol which adoptes a procedure among the parties to make choices (e.g. PoW, PoS, etc.)
 - 
 
 
