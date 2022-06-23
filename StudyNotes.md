@@ -13,7 +13,11 @@
 - PoS is type of consensus mechanism used by blockchains to achieve distributed consensus
 - in PoS ETH staked by validators act as collateral which can be taken if bad behaviour from validator
 - in PoS time is divided into slots (12 seconds) and epochs (32 slots)
-- 
+- final block: Block can never be changed again
+- staking replaces mining as the consensus mechanism in PoS
+- beacon chain manages the registry of validators
+- slashing: punishment for stakers (if bad behaviour)
+- sharding: database partitioning where large databases are divided into smaller clusters to reduce data burden and improve scalability
 
 
 
