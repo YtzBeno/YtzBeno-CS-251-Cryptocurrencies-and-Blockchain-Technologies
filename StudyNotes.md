@@ -18,6 +18,8 @@
 - beacon chain manages the registry of validators
 - slashing: punishment for stakers (if bad behaviour)
 - sharding: database partitioning where large databases are divided into smaller clusters to reduce data burden and improve scalability
+- randomnes: data produced in an unpredictable way
+- 
 
 
 
