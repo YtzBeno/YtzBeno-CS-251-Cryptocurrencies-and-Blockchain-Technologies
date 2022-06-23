@@ -26,6 +26,7 @@
 - EVM stores state according to a data structure called a “Merkle Patricia trie”, which is able to contain all the key:value pairs of all addresses on ethereum
 - value/state for each address is itself an encoding of the hash of the address’s respective code, a hash of the data stored by the account, its balance, and the number of transactions it’s carried out // represented as a nonce
 - bytecode is the low-level language that the EVM reads to compute state transitions
+- Already experienced with Solidity so skipped that part
 - 
 
 
