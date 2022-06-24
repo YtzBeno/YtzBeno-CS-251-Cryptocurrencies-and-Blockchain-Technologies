@@ -27,7 +27,14 @@
 - value/state for each address is itself an encoding of the hash of the address’s respective code, a hash of the data stored by the account, its balance, and the number of transactions it’s carried out // represented as a nonce
 - bytecode is the low-level language that the EVM reads to compute state transitions
 - Already experienced with Solidity so skipped that part
+- synthetics (e.g. DAI) are collateralized, decentralized stablecoins
+- custodial stablecoins (e.g. USDT, USDC) are centralized, collateralized stablecoins
+- synthetics carry the danger of oracle dependency, which = risk
+- if DAI drops under 1 dollar (e.g. $0.99) then stability fee rises (to $1.01) (this goes both ways)
+- blockchain cannot access data outside of its state (e.g. ETHUSD price, the
+weather today, content at a URL, etc.)
 - 
+
 
 
 
