@@ -38,6 +38,9 @@ weather today, content at a URL, etc.)
 -  e.g. there's a pool with 20,000 USDC and 10 ETH. K would be 200,000. If you wanted to sell 1 ETH, ETH in the pool increases to 11. For the equality to hold, USDC must decrease to 20,000 / 11 = 18,181.82 / You receive 20,000 - 18,181.82 = 1,818.18 USDC for 1 ETH
 - SP = x / y (SP = spot price)
 - example above: new SP = 18,181.82 / 11 = 1,652.89
+- no privacy/anonymity Bitcoin & Ethereum, everyhting can be found on the chain (e.g. wallets, values, transactions, etc.)
+- mixing creates the possibility that many people could've sent the transaction, therefor the more people the higher anonymity
+- Monero uses ring signatures, to anyone observing, it’s impossible to tell whose key was used to sign, making the transaction anonymous
 - 
 
 
