@@ -58,7 +58,12 @@ weather today, content at a URL, etc.)
 - payment channel: a process where participants can make multiple transfers without sending a transaction to the Ethereum blockchain. Once the final transaction occurs between the participants the recipient can claim their funds by submitting one final transaction to the smart contract on the blockchain
 - state channels allow participants to transact x number of times off-chain while only submitting two on-chain transactions to the Ethereum network
 - payment/state channels have many cons
-- optimistic rollup: 
+- optimistic rollups: assumes transactions are valid by default and only runs computation, via a fraud proof
+- dispute resolution mode: bad because: long wait times for on-chain transaction
+- zk rollups don't have dispute resolution, they have ZKPs
+- zk rollups have much better withdrawal time
+- con zk rollup: complexity causes that appplication logic has to be re-written
+- 
 
 
 
