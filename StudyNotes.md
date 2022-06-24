@@ -35,7 +35,7 @@
 weather today, content at a URL, etc.)
 - sandwich attack is a form of front-running that targets protocols by placing one order right before the trade and one right after it
 - x * y = k !!!
--  e.g. there's a pool with 20,000 USDC and 10 ETH. K would be 200,000. If you wanted to sell 1 ETH, ETH in the pool increases to 11. For the equality to hold, USDC must decrease to 20,000 / 11 = 18,181.82 / You receive 20,000 - 18,181.82 = 1,818.18 USDC for 1 ETH
+- e.g. there's a pool with 20,000 USDC and 10 ETH. K would be 200,000. If you wanted to sell 1 ETH, ETH in the pool increases to 11. For the equality to hold, USDC must decrease to 20,000 / 11 = 18,181.82 / You receive 20,000 - 18,181.82 = 1,818.18 USDC for 1 ETH
 - SP = x / y (SP = spot price)
 - example above: new SP = 18,181.82 / 11 = 1,652.89
 - no privacy/anonymity Bitcoin & Ethereum, everyhting can be found on the chain (e.g. wallets, values, transactions, etc.)
@@ -48,14 +48,16 @@ weather today, content at a URL, etc.)
 - verifiable computation with ZKPs allow L1s to outsource transaction processing to off-chain high-performance systems (aka Layer 2s). This enables blockchain scaling without compromising on security. As an example, StarkWare is building a scalable smart contract platform, StarkNet, using a special-purpose virtual machine that runs ZK-friendly code. Aztec also enables their Layer 2 programs to run privately, without leaking any information about a user’s transactions
 - L1 chain like Zcash allows transactors to hide senders, receivers, or amounts using ZKPs, as an opt-in (Zcash)
 - problem: ZKPs are slow! (due to complex operations and non ZKP friendly software)
--  proof systems (e.g. Plonk) take a computation that’s expressed in a ZK-friendly format along with some inputs and output a proof
--  ZKPs will require hardware acceleration
--  soundness: If a statement is false, no dishonest prover can unilaterally convince an honest verifier that they possess knowledge about the correct input
--  with ZKPs a prover can validate every single transaction, bundle them all together and generate a proof of this computation
--  when all nodes are synchronized, they only need to verify that the proof is valid, and there is no need to recalculate all transactions
--  ultimate goal of zkEVM is actually to apply it to L1, replacing our current EVM
--  
--  
+- proof systems (e.g. Plonk) take a computation that’s expressed in a ZK-friendly format along with some inputs and output a proof
+- ZKPs will require hardware acceleration
+- soundness: If a statement is false, no dishonest prover can unilaterally convince an honest verifier that they possess knowledge about the correct input
+- with ZKPs a prover can validate every single transaction, bundle them all together and generate a proof of this computation
+- when all nodes are synchronized, they only need to verify that the proof is valid, and there is no need to recalculate all transactions
+- ultimate goal of zkEVM is actually to apply it to L1, replacing our current EVM
+- idea to increase #tx without increasing data: don’t record every TX on the chain, only settlement Tx
+- payment channel: a process where participants can make multiple transfers without sending a transaction to the Ethereum blockchain. Once the final transaction occurs between the participants the recipient can claim their funds by submitting one final transaction to the smart contract on the blockchain
+- state channels allow participants to transact x number of times off-chain while only submitting two on-chain transactions to the Ethereum network
+- 
 
 
 
