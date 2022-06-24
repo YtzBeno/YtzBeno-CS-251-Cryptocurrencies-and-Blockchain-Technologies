@@ -12,6 +12,7 @@ Note that I 'changed' the course a bit here and there, due to my interest being 
 - hash functions
 - consenus layer
 - UTXOs
+- DeFi Protocols (e.g. Lending & Borrowing, oracles, stablecoins, AMM etc.)
 - mining pool sabotage
 - EVM
 - smart contract security
