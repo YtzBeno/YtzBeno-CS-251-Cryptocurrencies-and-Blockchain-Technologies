@@ -50,6 +50,11 @@ weather today, content at a URL, etc.)
 - problem: ZKPs are slow! (due to complex operations and non ZKP friendly software)
 -  proof systems (e.g. Plonk) take a computation that’s expressed in a ZK-friendly format along with some inputs and output a proof
 -  ZKPs will require hardware acceleration
+-  soundness: If a statement is false, no dishonest prover can unilaterally convince an honest verifier that they possess knowledge about the correct input
+-  with ZKPs a prover can validate every single transaction, bundle them all together and generate a proof of this computation
+-  when all nodes are synchronized, they only need to verify that the proof is valid, and there is no need to recalculate all transactions
+-  ultimate goal of zkEVM is actually to apply it to L1, replacing our current EVM
+-  
 -  
 
 
