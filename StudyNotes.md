@@ -63,6 +63,10 @@ weather today, content at a URL, etc.)
 - zk rollups don't have dispute resolution, they have ZKPs
 - zk rollups have much better withdrawal time
 - con zk rollup: complexity causes that appplication logic has to be re-written
+- zk rollups: runs computation off-chain and submits a validity proof to the chain
+- zk rollup bundle hundreds of transactions and generates cryptographic proof, in the form of SNARKS (or STARKS)
+- zk rollups only need the validity proof instead of all transaction data, therefor With a zkrollup, validating a block is quicker and cheaper because less data is included
+- con zk rollup: no EVM support
 - 
 
 
