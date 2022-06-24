@@ -44,7 +44,7 @@ weather today, content at a URL, etc.)
 - ZKPs and commitments could allow private transactions on a public blockchain 
 - there's a big demand from all kind of parties for private transactions 
 - ZKPs allow a third party provider to also output a proof of computational integrity which guarantees the output you received is correct
-- ZKPs allow a third party provider to also output a proof of computational integrity which guarantees the output you received is correct
+- ZKPs allow you to selectively hide some or all inputs around a computational statement
 
 
 
