@@ -43,7 +43,8 @@ weather today, content at a URL, etc.)
 - Monero uses ring signatures, to anyone observing, it’s impossible to tell whose key was used to sign, making the transaction anonymous
 - ZKPs and commitments could allow private transactions on a public blockchain 
 - there's a big demand from all kind of parties for private transactions 
-- 
+- ZKPs allow a third party provider to also output a proof of computational integrity which guarantees the output you received is correct
+- ZKPs allow a third party provider to also output a proof of computational integrity which guarantees the output you received is correct
 
 
 
