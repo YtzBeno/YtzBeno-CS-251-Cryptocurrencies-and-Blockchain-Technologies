@@ -24,6 +24,7 @@ Note that I 'changed' the course a bit here and there, due to my interest being 
 
 
 - [Foundry](https://github.com/foundry-rs/foundry)
+- [Remix Docs](https://remix.run/docs/en/v1)
 
 
 
