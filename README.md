@@ -11,7 +11,7 @@ Note that I 'changed' the course a bit here and there, due to my interest being 
 - binary Merkle trees
 - hash functions
 - consenus layer
-- UTXOs
+- scaling (Optimistic Rollup, ZK-Rollup, Validium, state/payment channel etc.)
 - Zcash tech
 - DeFi Protocols (e.g. Lending & Borrowing, oracles, stablecoins, AMM etc.)
 - mining pool sabotage
