@@ -68,6 +68,9 @@ weather today, content at a URL, etc.)
 - zk rollups only need the validity proof instead of all transaction data, therefor With a zkrollup, validating a block is quicker and cheaper because less data is included
 - con zk rollup: no EVM support
 - validum stores all data off-chain, wheras zk rollup stores it on Ethereum
+- gas golfing allows searchers to set a higher gas price while keeping their total gas fees constant
+- MEV is bad, therefor flashbots trynna solve the problem by allowing searchers to submit MEV transactions to miners without revealing them to the public mempool
+
 
 
 
