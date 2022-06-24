@@ -33,6 +33,7 @@
 - if DAI drops under 1 dollar (e.g. $0.99) then stability fee rises (to $1.01) (this goes both ways)
 - blockchain cannot access data outside of its state (e.g. ETHUSD price, the
 weather today, content at a URL, etc.)
+- sandwich attack is a form of front-running that targets protocols by placing one order right before the trade and one right after it
 - 
 
 
