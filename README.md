@@ -18,6 +18,7 @@ Note that I 'changed' the course a bit here and there, due to my interest being 
 - EVM
 - smart contract security
 - SNARKs
+- MEV
 
 ## Tools I used (for the assignments):
 
