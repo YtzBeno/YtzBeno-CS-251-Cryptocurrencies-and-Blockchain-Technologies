@@ -57,7 +57,8 @@ weather today, content at a URL, etc.)
 - idea to increase #tx without increasing data: don’t record every TX on the chain, only settlement Tx
 - payment channel: a process where participants can make multiple transfers without sending a transaction to the Ethereum blockchain. Once the final transaction occurs between the participants the recipient can claim their funds by submitting one final transaction to the smart contract on the blockchain
 - state channels allow participants to transact x number of times off-chain while only submitting two on-chain transactions to the Ethereum network
-- 
+- payment/state channels have many cons
+- optimistic rollup: 
 
 
 
