@@ -45,6 +45,12 @@ weather today, content at a URL, etc.)
 - there's a big demand from all kind of parties for private transactions 
 - ZKPs allow a third party provider to also output a proof of computational integrity which guarantees the output you received is correct
 - ZKPs allow you to selectively hide some or all inputs around a computational statement
+- verifiable computation with ZKPs allow L1s to outsource transaction processing to off-chain high-performance systems (aka Layer 2s). This enables blockchain scaling without compromising on security. As an example, StarkWare is building a scalable smart contract platform, StarkNet, using a special-purpose virtual machine that runs ZK-friendly code. Aztec also enables their Layer 2 programs to run privately, without leaking any information about a user’s transactions
+- L1 chain like Zcash allows transactors to hide senders, receivers, or amounts using ZKPs, as an opt-in (Zcash)
+- problem: ZKPs are slow! (due to complex operations and non ZKP friendly software)
+-  proof systems (e.g. Plonk) take a computation that’s expressed in a ZK-friendly format along with some inputs and output a proof
+-  ZKPs will require hardware acceleration
+-  
 
 
 
