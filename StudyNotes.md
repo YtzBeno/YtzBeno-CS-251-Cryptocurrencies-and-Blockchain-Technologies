@@ -34,7 +34,9 @@
 - blockchain cannot access data outside of its state (e.g. ETHUSD price, the
 weather today, content at a URL, etc.)
 - sandwich attack is a form of front-running that targets protocols by placing one order right before the trade and one right after it
-- 
+- x * y = k !!!
+-  e.g. there's a pool with 20,000 USDC and 10 ETH. K would be 200,000. If you wanted to sell 1 ETH, ETH in the pool increases to 11. For the equality to hold, USDC must decrease to 200,000 / 11 = 18,181.82 / You receive 20,000 - 18,181.82 = 1,818.18 USDC for 1 ETH
+-  
 
 
 
