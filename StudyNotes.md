@@ -67,7 +67,7 @@ weather today, content at a URL, etc.)
 - zk rollup bundle hundreds of transactions and generates cryptographic proof, in the form of SNARKS (or STARKS)
 - zk rollups only need the validity proof instead of all transaction data, therefor With a zkrollup, validating a block is quicker and cheaper because less data is included
 - con zk rollup: no EVM support
-- 
+- validum stores all data off-chain, wheras zk rollup stores it on Ethereum
 
 
 
